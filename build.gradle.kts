@@ -18,12 +18,12 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
 
-    implementation("net.kyori:adventure-api:4.7.0")
+    implementation("net.kyori:adventure-api:4.9.2")
 }
 
 tasks {
     processResources {
-        filesMatching("*.yml") {
+        filesMatching("plugin.yml") {
             expand(project.properties)
         }
     }
@@ -39,7 +39,7 @@ tasks {
                 from(archiveFile)
 
                 //Save Location
-                val plugins = File("C:/Users/blugo/바탕화면/Files/Minecraft/Servers/Default/plugins")
+                val plugins = File("C:/Users/blugo/Desktop/Files/Minecraft/Servers/Default/plugins")
                 into(plugins)
             }
         }
