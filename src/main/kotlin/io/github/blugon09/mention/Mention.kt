@@ -1,4 +1,4 @@
-package io.github.blugon0921.mention
+package io.github.blugon09.mention
 
 import net.kyori.adventure.text.Component
 import net.md_5.bungee.api.ChatColor

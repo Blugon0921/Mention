@@ -3,8 +3,8 @@ plugins {
     id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
-group = "io.github.blugon0921"
-version = "1.0"
+group = "io.github.blugon09"
+version = "1.0.0"
 
 
 
@@ -12,7 +12,6 @@ version = "1.0"
 repositories {
     mavenCentral()
     maven("https://papermc.io/repo/repository/maven-public/")
-    maven("https://oss.sonatype.org/content/groups/public/")
 }
 
 dependencies {
